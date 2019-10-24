@@ -1,0 +1,32 @@
+{
+  "name": "AwesomeProject",
+  "displayName": "AwesomeProject",
+  "expo": {
+    "name": "AwesomeProject",
+    "slug": "expo-template-bare",
+    "privacy": "unlisted",
+    "sdkVersion": "35.0.0",
+    "primaryColor": "#000000",
+    "icon": "https://www.pngfind.com/pngs/m/283-2834464_how-to-set-use-team-edge-logo-icon.png",
+    "splash":{
+      "image": "https://img.pngio.com/watercolor-splash-png-hd-vector-clipart-psd-peoplepngcom-splash-png-4600_2636.png"
+    },
+    "version": "1.0.0",
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.teamedge.first"
+    },
+    "android": {
+      "package": "com.teamedge.first",
+      "permissions":[
+        "CAMERA",
+        "USE_FINGERPRINT"
+      ]
+    }
+  }
+}
